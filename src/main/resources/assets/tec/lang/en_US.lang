@@ -1,0 +1,20 @@
+#Keys
+keys.tec.category=Temperature Control
+keys.tec.charge=Charge
+keys.tec.release=Release
+
+# Item Localizations
+item.tec:acCoolant.name=AC Coolant
+item.tec:waterProofPipe.name=Water Proof Pipe
+item.tec:pipe.name=Pipe
+item.tec:iceWater.name=Ice Water
+
+itemGroup.tec=Temperature Control
+
+# Block Localizations
+tile.tec:largeAc.name=Large AC
+tile.tec:acFan.name=AC Fan
+tile.tec:acPump.name=AC Pump
+tile.tec:acVent.name=AC Vent
+tile.tec:largeAcController.name=Large AC Controller
+tile.tec:smallAc.name=Small AC
