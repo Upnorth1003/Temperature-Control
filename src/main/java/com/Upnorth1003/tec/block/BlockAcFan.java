@@ -7,6 +7,7 @@ public class BlockAcFan extends BlockTEC
     public BlockAcFan()
     {
         super();
+        this.setHardness(1.5F);
         this.setBlockName(Names.Blocks.AC_FAN);
     }
 }

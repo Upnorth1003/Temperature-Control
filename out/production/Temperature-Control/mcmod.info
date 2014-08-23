@@ -1,16 +1,22 @@
 [
-{
-  "modid": "tec",
-  "name": "Temperature Control",
-  "description": "Example placeholder mod.",
-  "version": "1.0",
-  "mcversion": "1.7.10",
-  "url": "",
-  "updateUrl": "",
-  "authorList": ["Upnorth1003"],
-  "credits": "",
-  "logoFile": "",
-  "screenshots": [],
-  "dependencies": []
-}
-]
+ {
+   "modid": "tec",
+   "name": "Temperature Control",
+   "description": "Keep Warm, Stay Cold to Survive!",
+   "version": "1.0",
+   "mcversion": "1.7.10",
+   "url": "",
+   "updateUrl": "",
+   "authorList": [
+     "Upnorth1003",
+     "nate_SK8"
+   ],
+   "credits": "Upnorth1003 and nate_SK8",
+   "logoFile": "",
+   "screenshots": [
+   ],
+   "parent":"",
+   "dependencies": [
+   ]
+ }
+ ]

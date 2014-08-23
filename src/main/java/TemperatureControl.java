@@ -1,3 +1,4 @@
+import com.Upnorth1003.tec.client.handler.KeyInputEventHandler;
 import com.Upnorth1003.tec.handler.ConfigurationHandler;
 import com.Upnorth1003.tec.init.ModBlocks;
 import com.Upnorth1003.tec.init.ModItems;
@@ -40,6 +41,8 @@ public class TemperatureControl
     public void init(FMLInitializationEvent event)
     {
         Recipes.init();
+
+        FMLCommonHandler.instance().bus().register(new KeyInputEventHandler());
 
         LogHelper.info("Initialization Complete.");
     }
