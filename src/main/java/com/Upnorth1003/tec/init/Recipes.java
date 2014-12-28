@@ -33,6 +33,11 @@ public class Recipes
                 );
         //SmallAc *Shaped
 
+        /*GameRegistry.addRecipe
+                (
+                        new ItemStack(ModBlocks.smallAc)
+                );
+        */
 
     }
 }

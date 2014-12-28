@@ -8,5 +8,10 @@ public class BlockAcPump extends BlockTEC
     {
         super();
         this.setBlockName(Names.Blocks.AC_PUMP);
+        this.setHardness(3.5F);
     }
+
+    @Override
+    public boolean renderAsNormalBlock() {return true;}
+
 }

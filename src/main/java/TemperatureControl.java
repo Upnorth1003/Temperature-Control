@@ -3,6 +3,7 @@ import com.Upnorth1003.tec.handler.ConfigurationHandler;
 import com.Upnorth1003.tec.init.ModBlocks;
 import com.Upnorth1003.tec.init.ModItems;
 import com.Upnorth1003.tec.init.Recipes;
+import com.Upnorth1003.tec.proxy.CommonProxy;
 import com.Upnorth1003.tec.proxy.IProxy;
 import com.Upnorth1003.tec.reference.Reference;
 import com.Upnorth1003.tec.utility.LogHelper;
@@ -29,7 +30,8 @@ public class TemperatureControl
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
 
 
-        proxy.registerKeyBindings();
+        //proxy.registerKeyBindings();
+        proxy.registerRenderInformation();
 
         ModItems.init();
         ModBlocks.init();
@@ -45,6 +47,7 @@ public class TemperatureControl
         FMLCommonHandler.instance().bus().register(new KeyInputEventHandler());
 
         LogHelper.info("Initialization Complete.");
+
     }
 
     @Mod.EventHandler

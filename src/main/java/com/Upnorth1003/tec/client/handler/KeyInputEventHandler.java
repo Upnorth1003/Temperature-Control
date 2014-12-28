@@ -6,20 +6,21 @@ import com.Upnorth1003.tec.utility.LogHelper;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import cpw.mods.fml.common.gameevent.InputEvent;
 
-public class KeyInputEventHandler
-{
+public class KeyInputEventHandler{}
+/*{
     private static Key getPressedKeyBinding()
     {
         if (KeyBindings.charge.isPressed())
         {
-            return Key.CHARGE;
+            return null; //Key.CHARGE;
         }
         else if (KeyBindings.release.isPressed())
         {
-            return Key.RELEASE;
+            return null; //Key.RELEASE;
         }
 
         return Key.UNKNOWN;
+
     }
 
 
@@ -29,3 +30,4 @@ public class KeyInputEventHandler
         //LogHelper.info(getPressedKeyBinding());
     }
 }
+*/

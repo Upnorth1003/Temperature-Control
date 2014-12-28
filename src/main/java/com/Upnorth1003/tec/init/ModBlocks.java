@@ -15,15 +15,21 @@ public class ModBlocks
     public static final BlockTEC acFan = new BlockAcFan();
     public static final BlockTEC largeAcController = new BlockLargeAcController();
     public static final BlockTEC valve = new BlockValve();
+    public static final BlockTEC wall = new BlockWall();
+    public static final BlockTEC coolantHolder = new BlockCoolantHolder();
+    public static final BlockTEC lightTest = new BlockLightTest();
 
     public static void init()
     {
         GameRegistry.registerBlock(largeAc, Names.Blocks.LARGE_AC);
         GameRegistry.registerBlock(smallAc, Names.Blocks.SMALL_AC);
-        GameRegistry.registerBlock(acVent, Names.Blocks.AC_VENT);
+        GameRegistry.registerBlock(acVent, Names.Blocks.VENT);
         GameRegistry.registerBlock(acPump, Names.Blocks.AC_PUMP);
         GameRegistry.registerBlock(acFan, Names.Blocks.AC_FAN);
         GameRegistry.registerBlock(largeAcController, Names.Blocks.LAC_CONTROLLER);
         GameRegistry.registerBlock(valve, Names.Blocks.VALVE);
+        GameRegistry.registerBlock(wall, Names.Blocks.WALL);
+        GameRegistry.registerBlock(coolantHolder, Names.Blocks.COOLANT_HOLDER);
+        GameRegistry.registerBlock(lightTest, Names.Blocks.LIGHT_TEST);
     }
 }
